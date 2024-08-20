@@ -27,4 +27,13 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
+    position: static;
+    
+    
+}
+
+.div1 img{
+ height: 290px;
+ left: 300px;
+
 }
