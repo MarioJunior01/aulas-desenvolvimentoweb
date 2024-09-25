@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <img src='field-1728099_1920.jpg' alt="">
+
 
     <meta charset="UTF-8" />
     <title>Formulario </title>
@@ -11,19 +11,18 @@
 </head>
 
 <body class="Body ">
-    <h1> Formulario de Cadastro de Contas da empresa  </h1>
-
-
+    <h1> Formulario de Cadastro</h1>
 
 </body>
 
 
 <div class="Formulario">
 
+
     <form action="" method="GET">
-        <label for id="Nome">  Nome: </label>
+        <label for id="Nome"> Nome: </label>
         <input type="text" id="CampoNome" name="Nome" placeholder="Digite seu nome ">
-        <label for id="Sobrenome">  Sobrenome: </label>
+        <label for id="Sobrenome"> Sobrenome: </label>
         <input type="text" id="CampoSobrenome" name="Nome" placeholder="Digite seu sobrenome ">
         <br>
         <br>
@@ -31,21 +30,59 @@
         <input type="date" id="CampoDataNascimento" name="Data de nascimento ">
         <br>
         <br>
-        <label  for id=" Email"> Email:</label>
-        <input type="email" id="CampoEmail" name="Email">    
-        <br>
-        <br>
-        <label  for id="NumeroTelefone "> Número de telefone : </label>
-        <input type="tel" id="CampoNumeroTelefone"  required placeholder="(xx) xxxxx-xxxx">
-        <br>
-        <br>
-        <label  for id="cpf">CPF:</label>
-        <input type="text" id="CampoCpf" name="CPF" required placeholder=" ###.###.###-##">
-        
+        <label for id=" Email"> Email:</label>
+        <input type="email" id="CampoEmail" name="Email">
 
-           
-      
-        
+        <label for id="NumeroTelefone "> Número de telefone : </label> 
+        <input type="tel" id="CampoNumeroTelefone" required placeholder="(xx) xxxxx-xxxx"> 
+        <br>
+        <br>
+        <label for id="cpf">CPF:</label>
+        <input type="text" id="CampoCpf" name="CPF" required placeholder=" ###.###.###-##">
+        <label for id="rg">RG:</label > 
+        <input type="text" id="CampoRg" name="RG" required placeholder="#####-###">
+        <br>
+        <br>
+        <label for id="campoCep"> CEP: </label>
+        <input type="text" id="CampoCep" name="CEP" required placeholder="##.###.###-#">
+        <br>
+        <br>
+        <label for id="estadoCivil"> ESTADO CIVIL: </label> 
+        <input type="radio" value="casado"name="estadoCivil"> Casado
+        <input type="radio" value="solteiro"name="estadoCivil"> Solteiro
+        <input type="radio" value="Viúvo"name="estadoCivil"> Viúvo
+        <ol>
+            <h5>Para criar uma senha siga as regras abaixo:</h5>
+            <li>pelo menos 8 caracteres</li>
+            <li>Não mais do que 128 caracteres</li>
+            <li>pelo menos uma letra maiúscula e uma minúscula</li>
+            <li>Somente caracteres do alfabeto latino ou cirílico</li>
+            <li>Pelo menos um numeral</li>
+            <li>Numerais arábicos apenas</li>
+            <li>Sem espaços</li>
+            <li>Outros caracteres que também são válidos:~ ! ? @ # $ % ^ & * _ - + ( ) [ ] { } > < / \ | " ' . , : ;</li>
+            </ol> 
+        <label for id ="campoSenha"> Senha:</label>
+        <input type="password" id="CampoSenha" name="Senha ">
+        <br>
+        <br>
+        <input type="submit" value="enviar"id="botaoEnviar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     </form>
