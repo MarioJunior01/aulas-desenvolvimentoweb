@@ -25,18 +25,18 @@
 
     $numero = $_GET ["numero"];
     $tipo= $numero%2;
+    if($tipo==0){
+      echo "$numero é par";
+   }
+   else{
+      echo "$numero é impar";
+   }
 
 
 
  }
 
-
- if($tipo==0){
-    echo "$numero é par";
- }
- else{
-    echo "$numero é impar";
- }
+ 
 
 
 
