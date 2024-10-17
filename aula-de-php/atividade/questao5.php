@@ -18,6 +18,7 @@
 </body>
 
 </html>
+
 <?php
 
 if (isset($_GET["consumo"])) {
@@ -29,12 +30,11 @@ if (isset($_GET["consumo"])) {
         $totalConta = $consumo * 8.50;
         echo "<br>";
         echo "o total da conta será de $totalConta";
-    } else if ($consumo>= 20) {
+    } else if ($consumo >= 20) {
         $totalConta = $consumo * 11;
         echo "<br>";
         echo "o total da conta será de $totalConta";
-        
-    } 
-
+    }
 }
+
 ?>

@@ -1,4 +1,5 @@
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,52 +8,47 @@
 
 <body>
 
- <h1>Impar ou Par </h1>
+    <h1>Impar ou Par </h1>
 
-<form action="" method = "GET">
+    <form action="" method="GET">
 
-<label> Digite um numero </label>
+        <label> Digite um numero </label>
 
-<input type = "text "  name="numero">
-</form> 
+        <input type="text " name="numero">
+    </form>
 
 </body>
+
 </html>
 </body>
+
 </html>
+
+
 <?php
 $numero = $_GET["numero"];
 
-$tabuada=0;
-while($tabuada<10){
+$tabuada = 0;
+while ($tabuada < 10) {
     $tabuada++;
-    $resultado = $numero*$tabuada;
-    
+    $resultado = $numero * $tabuada;
+
     echo "$numero x $tabuada = $resultado\n";
     echo "<br>";
-   
-
-
-
 }
 
-$coisas = array("mario","tigo","shau");
+$coisas = array("mario", "tigo", "shau");
 //foreach diferente
-foreach($coisas as $elementos){
+foreach ($coisas as $elementos) {
 
     echo "$elementos.";
-    echo"<br>";
-    echo"<br>";
-    
+    echo "<br>";
+    echo "<br>";
 }
-$sla =array( "bomba"=>20,"carro"=>30,"faca"=>53);
- foreach($sla as $chave => $valor){
+$sla = array("bomba" => 20, "carro" => 30, "faca" => 53);
+foreach ($sla as $chave => $valor) {
 
     echo "Nome: $chave - valor: $valor <br>";
- }
-
-
-
-
+}
 
 ?>

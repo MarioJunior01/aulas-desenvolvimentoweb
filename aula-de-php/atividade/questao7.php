@@ -23,6 +23,8 @@
         </fomr>
 </body>
 </html>
+
+
 <?php
 
 if (isset($_GET["numeroA"])&&isset($_GET["numeroC"])&&isset($_GET["numeroC"])) {
@@ -53,3 +55,4 @@ if (isset($_GET["numeroA"])&&isset($_GET["numeroC"])&&isset($_GET["numeroC"])) {
 
 }
 
+?>

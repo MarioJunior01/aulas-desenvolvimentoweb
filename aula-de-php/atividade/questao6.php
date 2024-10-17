@@ -22,34 +22,31 @@
         <input type="submit" value="enviar">
         </fomr>
 </body>
+
 </html>
+
+
 <?php
 
-if (isset($_GET["numeroA"])&&isset($_GET["numeroC"])&&isset($_GET["numeroC"])) {
+if (isset($_GET["numeroA"]) && isset($_GET["numeroC"]) && isset($_GET["numeroC"])) {
     $numeroA = $_GET["numeroA"];
     $numeroB = $_GET["numeroB"];
     $numeroC = $_GET["numeroC"];
-   
 
-    if ($numeroC <=$numeroA&&$numeroC<=$numeroB) {
+
+    if ($numeroC <= $numeroA && $numeroC <= $numeroB) {
         echo "<br>";
         echo "o numero c esta contido em A e B";
-    } else if ($numeroC <=$numeroA) {
+    } else if ($numeroC <= $numeroA) {
         echo "<br>";
         echo "o numero c esta contido em A ";
-        
-    } 
-    else if ($numeroC <=$numeroB) {
+    } else if ($numeroC <= $numeroB) {
         echo "<br>";
         echo "o numero c esta contido em B ";
-        
-    } 
-    else{
-        echo"<br>";
-        echo" o numero c não está em nenhum dos dois numeros";
+    } else {
+        echo "<br>";
+        echo " o numero c não está em nenhum dos dois numeros";
     }
-
 }
-
 
 ?>

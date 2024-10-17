@@ -25,7 +25,10 @@
         <input type="submit" value="enviar">
         </fomr>
 </body>
+
 </html>
+
+
 <?php
 
 if (isset($_GET["lado1"]) && isset($_GET["lado2"]) && isset($_GET["lado3"])) {
@@ -39,6 +42,5 @@ if (isset($_GET["lado1"]) && isset($_GET["lado2"]) && isset($_GET["lado3"])) {
         echo "<br>Os lados não formam um triângulo";
     }
 }
-
 
 ?>
