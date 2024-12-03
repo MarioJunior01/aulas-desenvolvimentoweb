@@ -1,0 +1,18 @@
+.body{
+    font-size: 17px;
+     background-image: url('1114362.png');
+    }
+    
+    .menu{
+    background-color:rgb(255, 255, 255);
+    list-style:none;
+    border:1px solid #ffffff;
+    float:left;
+    color: black;
+    }
+    
+    .menu li{
+        position:relative;
+        float:left;
+        border-right:1px solid #ffffff;
+     }
