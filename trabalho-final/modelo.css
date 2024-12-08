@@ -1,18 +1,50 @@
 .body{
-    font-size: 17px;
-     background-image: url('1114362.png');
-    }
+    background-color:rgb(118,156,178);
+}
+.menuLogin{
+    background-color: rgba(255, 255, 255, 0.548);
+    width: 701px;
+    height: 401px;
+    top: 100px;
+    border-radius: 14px;
+    border-style:hidden;
+    padding-left: 39px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20;
+    position:relative;
+
     
-    .menu{
-    background-color:rgb(255, 255, 255);
-    list-style:none;
-    border:1px solid #ffffff;
-    float:left;
-    color: black;
-    }
+}
+#imagem{
+    position: absolute; 
+	left: 303px; 
+	top: 0px;
+    border-radius:40px;  
+}
+.Login{
+    position: relative;
+    top: 110px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+   
+  
+}
+.botaoLogin{
+    background-color:rgb(118,156,178);
+    border-radius: 10px;
+    position: relative;
+    width: 150px;
     
-    .menu li{
-        position:relative;
-        float:left;
-        border-right:1px solid #ffffff;
-     }
+}
+#cadastro{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+    font-size: 14px;
+}
