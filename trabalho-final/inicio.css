@@ -1,0 +1,98 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; 
+    color: #333; 
+    padding: 20px;
+}
+
+
+nav#menu {
+    background-color: rgb(118,156,178); 
+    padding: 15px;
+    text-align: center;
+}
+
+
+nav#menu a {
+    color: white;
+    text-decoration: none; 
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+nav#menu a:hover {
+    background-color: #218838; 
+}
+
+
+h1 {
+    font-size: 2.5rem; 
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+section#sobre-projeto {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    color: #28a745; 
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+p {
+    font-size: 1.1rem;
+    color: #555; 
+    margin-bottom: 15px;
+    line-height: 1.8; 
+}
+
+
+ul {
+    list-style: none; 
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+
+a {
+    color: #28a745; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover {
+    color: #218838; /* Cor mais escura de verde ao passar o mouse */
+}
+

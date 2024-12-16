@@ -48,3 +48,28 @@
     font-style:normal;
     font-size: 14px;
 }
+
+nav#menu {
+    background-color: rgb(118,156,178); /* Cor do fundo do menu */
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilo dos links no menu */
+nav#menu a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Removendo underline */
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s ease; /* Efeito de transição */
+}
+
+/* Efeito de hover nos links do menu */
+nav#menu a:hover {
+    background-color: #218838; /* Cor de fundo ao passar o mouse */
+}
+
+
+

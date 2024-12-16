@@ -33,10 +33,7 @@
 </body>
  </html>
  <?php
- if (isset) {
-    # code...
- }
-
+ 
 
 
  ?>

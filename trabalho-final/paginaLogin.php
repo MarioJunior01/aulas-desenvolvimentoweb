@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de Login</title>
-    <link rel="stylesheet" href="modelo.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,13 +14,20 @@
 
 </head>
 
-<body class="body">
+<nav id="menu">
+        <a href="paginaInicial.php">Inicio</a>
+        <a href="paginaSobre.php">Sobre</a>
+        <a href="paginaEventos.php">Eventos</a>
+        <a href="paginaLogin.php">Login</a>
+    </nav>
 
+<body class="body">
 </body>
+
 <div class="menuLogin">
     <img src="river-8286407.svg" id="imagem" width="470px" height="420px" />
-    <form action="GET" class="Login">
-        <label id="Email"> Email:</label>
+    <form method="POST" action="index.php"class="login">
+        <label id="cpf"> Cpf:</label>
         <br>
         <input type="text" id="CampoEmail" name="email">
         <br>

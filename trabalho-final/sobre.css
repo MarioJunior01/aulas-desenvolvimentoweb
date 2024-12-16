@@ -1,0 +1,97 @@
+/* Resetando as margens, padding e garantindo box-sizing consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definições gerais para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor de texto padrão */
+    padding: 20px;
+}
+
+/* Estilo do menu de navegação */
+nav#menu {
+    background-color: rgb(118,156,178); /* Cor do fundo do menu */
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilo dos links no menu */
+nav#menu a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Removendo underline */
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s ease; /* Efeito de transição */
+}
+
+/* Efeito de hover nos links do menu */
+nav#menu a:hover {
+    background-color: #218838; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 2.5rem; /* Tamanho grande */
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilo para a seção principal do projeto */
+section#sobre-projeto {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff; /* Cor de fundo branca */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para os subtítulos */
+h2 {
+    font-size: 1.8rem;
+    color: #28a745; /* Cor verde para destacar */
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilo para os parágrafos */
+p {
+    font-size: 1.1rem;
+    color: #555; /* Cor de texto mais suave */
+    margin-bottom: 15px;
+    line-height: 1.8; /* Maior espaçamento entre linhas */
+}
+
+/* Estilo para as listas */
+ul {
+    list-style: none; /* Removendo os marcadores de lista */
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os links em geral */
+a {
+    color: #28a745; /* Cor verde para links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efeito de hover nos links */
+a:hover {
+    color: #218838; /* Cor mais escura de verde ao passar o mouse */
+}
+
